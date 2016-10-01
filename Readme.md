@@ -1,9 +1,10 @@
 # Introducing Python Exercise
 
-請大家先在 Exercise1 裡面： <br>
-1. Add your name in Readme. <br>
-2. Add a folder named your name.<br>
+## Scope:
+* Exercise1: Chapter2~3
+* Exercise2: Chapter4
 
-熟悉一下操作囉～<p></p>
+## Program: 可以放 .py or jupyter 
 
-* 程式可以放 .py or jupyter 
+## Member list:
+1. whale176
