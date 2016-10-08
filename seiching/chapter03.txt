@@ -1,0 +1,9 @@
+chapter 3
+
+1.years_list = [1980, 1981, 1982, 1983, 1984, 1985].
+2.years_list[2]
+3.years_list[4]
+4.things=["mozzarella", "cinderella", "salmonella"]
+5.things=["mozzarella", "cinderella", "salmonella"]
+   for i in things:
+      print i.capitalize()
