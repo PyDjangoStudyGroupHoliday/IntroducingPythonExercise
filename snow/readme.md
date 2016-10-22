@@ -1,4 +1,8 @@
 # Notes
+- [Mutable and Immutable Object](#mutable-and-immutable-object)
+- [Call by assignment](#call-by-assignment)
+- [Iteration](#iteration)
+
 ## Mutable and Immutable Object
 
 - 官網的解釋:
@@ -52,7 +56,7 @@
 ### Mutable Object
 - List, Dictionary, Set
 
-## Python的函式傳值機制: Call by assignment
+## Call by assignment
 - 改變函式傳入值會不會影響外部的變數，首先要看這個變數是屬於mutable還是immutable object
 - 如果是immutable object，則函式內的改動不會影響外部的變數，例:
   
@@ -97,7 +101,8 @@
     這時`L`就會指向這個新的list object(即不再指向`B`)，
     之後函式當中雖然迴圈繼續進行且執行到`L[i]=100`來改值，但都不會再影響外層的`B`的內容。
 
-## iterable, iterator, iteration, generator
+## Iteration
+### iterable, iterator, iteration, generator
 - iterator: 
     - 當宣告類別有定義`__next__()`時，則這個物件可以當做iterator使用。
     - iterator可以使用內建函式`next()`來呼叫取得下一個reference的value，一旦下一個reference為invalid時就會raise `StopIteration` exception。
